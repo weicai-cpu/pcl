@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.9 FATAL_ERROR)
-project(MY_PROJECT)
 set(Boost_DEBUG ON)
+set(CMAKE_C_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
+project(MY_PROJECT)
+
 find_package(PCL 1.3 REQUIRED)
 include_directories(${PCL_INCLUDE_DIRS})
 link_directories(${PCL_LIBRARY_DIRS})
