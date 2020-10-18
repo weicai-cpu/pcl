@@ -1,0 +1,1 @@
+script\run.bat "test\rabbit.pcd"

@@ -1,0 +1,26 @@
+# cmake
+CMakeFiles
+CMakeCache.txt
+
+# vcxproj
+*.vcxproj
+*.vcxproj.user
+*.filters
+*.sln
+
+# pcd
+*.pcd
+!rabbit.pcd
+
+# idea
+.idea
+
+# vs
+.vs
+Debug
+
+# custom
+local
+
+# cmake
+*.cmake
